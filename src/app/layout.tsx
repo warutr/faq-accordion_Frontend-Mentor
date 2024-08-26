@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={workSan.className}>
-        <main className="flex flex-col w-full items-center h-screen">
+        <main className="flex flex-col items-center min-h-screen bg-light-pink bg-mobile sm:bg-desktop bg-contain bg-top bg-no-repeat ">
           {children}
         </main>
       </body>
