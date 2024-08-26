@@ -1,7 +1,12 @@
 import React from "react";
+import Questions from "../components/faq";
 
 const mianPage = () => {
-  return <div>mianPage</div>;
+  return (
+    <div>
+      <Questions />
+    </div>
+  );
 };
 
 export default mianPage;
