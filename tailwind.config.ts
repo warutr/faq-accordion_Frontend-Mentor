@@ -19,6 +19,13 @@ const config: Config = {
       "dark-purple": "hsl(292, 42%, 14%)",
       white: "hsl(0, 0%, 100%)",
     },
+    fontFamily: {
+      sans: ["Work Sans", "sans-serif"],
+    },
+    screens: {
+      mobile: "375px",
+      desktop: "1440px",
+    },
   },
   plugins: [],
 };
